@@ -35,6 +35,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'rb-readline'
+  gem 'pry-rails'
+end
+
 group :test do
   gem 'rspec-rails', '~> 3.7'
 end
